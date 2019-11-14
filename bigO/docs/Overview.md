@@ -18,4 +18,4 @@ The same algorithm or piece of code will not run for the same time in different 
 
 Since computer are generally fast in this day and age, we as programmers need an alternate way of effeciently communication the time an algorithm is expected to run for regardless of the external factors like hardware/software and other factors.
 
-[Next O(n)](/docs/O(n).md)
+[Next O(n)](./O(n).md)
