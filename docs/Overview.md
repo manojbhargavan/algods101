@@ -22,4 +22,4 @@ Big O is used to defined time and space complexity of an algorithm which solves 
 
 [Next O(n)](./Orderofn.md)
 
-[Home](./index.md)
+[Index](./index.md)
