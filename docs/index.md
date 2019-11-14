@@ -1,5 +1,5 @@
-*Algorithms Data Structures 101*
-=================================
+*Algorithms Data Structures 101 (C#)*
+=====================================
 
 *Index*
 -------
