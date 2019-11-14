@@ -16,6 +16,8 @@ Since computer are generally fast in this day and age, we as programmers need an
 What is Big O Notation
 ----------------------
 
-Big O is used to defined time and space complexity of an algorithm which solves a single problem.
+Big O is used to defined time and space complexity of an algorithm which solves a single problem. Simply put it is the language software developers use to define how long an algorithm takes to run. It is also used to compare two algorithms aimed at solving the same problem.
 
 [Next O(n)](./Orderofn.md)
+
+[Home](./index.md)
