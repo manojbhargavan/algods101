@@ -18,7 +18,7 @@ What is Big O Notation
 
 Big O is used to defined time and space complexity of an algorithm which solves a single problem. Simply put it is the language software developers use to define how long an algorithm takes to run. It is also used to compare two algorithms aimed at solving the same problem, to identify which algorithm scales better, i.e., how the run time of each algorithm changes or if it changes at all as the number of input parameter or enumerbales increase.
 
-```C#
+```csharp
 internal static void FindingNemo(IEnumerable<string> names)
 {
     /*
