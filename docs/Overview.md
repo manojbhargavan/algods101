@@ -18,4 +18,4 @@ What is Big O Notation
 
 Big O is used to defined time and space complexity of an algorithm which solves a single problem.
 
-[Next O(n)](./O(n).html)
+[Next O(n)](./Orderofn.md)

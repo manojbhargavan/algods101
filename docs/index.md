@@ -6,4 +6,4 @@
 
 + [Overview Of Big O Notation](./Overview.md)
 
-+ [Time Complexity O(n)](./O(n).md)
++ [Time Complexity O(n)](./Orderofn.md)
