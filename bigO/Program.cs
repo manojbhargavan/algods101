@@ -13,7 +13,7 @@ namespace bigO
             var startTime = DateTime.Now;
             var nemoArray = "nemo".GetEnumerablePrePopulated(100000);
             Example1.FindingNemo(nemoArray);
-            System.Console.WriteLine($"Time taken: {(DateTime.Now - startTime).Humanize()}");
+            System.Console.WriteLine($"Time taken to run: {(DateTime.Now - startTime).Humanize()}");
         }
     }
 }
