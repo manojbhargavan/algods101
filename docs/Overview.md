@@ -18,6 +18,8 @@ What is Big O Notation
 
 Big O is used to define time and space complexity of an algorithm which solves a single problem. Simply put it is the language software developers use to define how long an algorithm takes to run, as in we express the runtime in terms of how quickly the runtime grows relative to the input. It is also used to compare two algorithms aimed at solving the same problem, to identify which algorithm scales better, i.e., how the run time of each algorithm changes or if it changes at all as the number of input parameter or enumerbales increase.
 
+It's hard to arrive at the exact runtime of an algorithm since it depends on the external factors as mentioned previously so instead of talking about the runtime directly, we use big O notation to talk about how quickly the runtime grows relative to the input.
+
 The below extention method generates a IEnumerable of size n and copies the value to n items in the Enumerable. The algorithm take n steps to generate the Enumerable hence its order of time complexity is O(n).
 
 ```csharp
