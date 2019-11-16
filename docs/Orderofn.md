@@ -1,6 +1,8 @@
 Time Complexity O(n)
 =====================
 
+[Index](./index.md)
+
 Let us look a the below extention method which generates a Enumerable of size n and copies the value to n items in the Enumerable.
 
 ```csharp
@@ -19,7 +21,8 @@ Lets count the number of steps in this particular method.
 
 ```csharp
 List<T> result = new List<T>();
-// One Step = O(1), in general we do not count this but we will act as if we do.
+// One Step = O(1)
+// In general we do not count this but we will act as if we do for now.
 
 for (int i = 0; i < n; i++)
 // n Steps = O(n)
@@ -27,7 +30,7 @@ for (int i = 0; i < n; i++)
     result.Add(value);
 }
 
-return result; 
+return result;
 // One Step = O(1)
 ```
 
