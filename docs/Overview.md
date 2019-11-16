@@ -1,0 +1,27 @@
+Overview Of Big O Notation
+==========================
+
+What is Good Code
+-----------------
+
+Good code in short is readable, maintainable and scalable. Big O helps us with the scalable part of good coding practices.
+
+Why Big O Notation
+------------------
+
+The same algorithm or piece of code might take variable amount of time to execute in different computer / machines. A machine with a much higher configuration like a enterprise grade server than say a basic laptop can run the same program much faster or vice verse. So it is not practical to measure the performance of an algorithm in terms of time, as in a number like 10 milliseconds, since the run time heavily depends on the hardware the program is running on and even the language and/or runtime on which the program was written / intended to run.
+
+Since computer are generally fast in this day and age, we as programmers need an alternate way of effeciently communicating the time an algorithm is expected to run regardless of the external factors like hardware/software etc. Enter Big O Notation...
+
+What is Big O Notation
+----------------------
+
+Big O is used to define time and space complexity of an algorithm which solves a single problem. Simply put it is the language software developers use to define how long an algorithm takes to run, as in we express the runtime in terms of how quickly the runtime grows relative to the input. It is also used to compare two algorithms aimed at solving the same problem, to identify which algorithm scales better, i.e., how the run time of each algorithm changes or if it changes at all as the number of input parameter or enumerbales increase.
+
+It's hard to arrive at the exact runtime of an algorithm since it depends on the external factors as mentioned previously so instead of talking about the runtime directly, we use big O notation to talk about how quickly the runtime grows relative to the input.
+
+![Big O Complexity](./imgs/bigocomplexitychart.jpg)
+
+[Next O(n)](./Orderofn.md)
+
+[Index](./index.md)
