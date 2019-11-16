@@ -20,20 +20,6 @@ Big O is used to define time and space complexity of an algorithm which solves a
 
 It's hard to arrive at the exact runtime of an algorithm since it depends on the external factors as mentioned previously so instead of talking about the runtime directly, we use big O notation to talk about how quickly the runtime grows relative to the input.
 
-The below extention method generates a IEnumerable of size n and copies the value to n items in the Enumerable. The algorithm take n steps to generate the Enumerable hence its order of time complexity is O(n).
-
-```csharp
-public static IEnumerable<T> GetEnumerablePrePopulated<T>(this T value, long n)
-{
-    List<T> result = new List<T>();
-    for (int i = 0; i < n; i++)
-    {
-        result.Add(value);
-    }
-    return result;
-}
-```
-
 ![Big O Complexity](./imgs/bigocomplexitychart.jpg)
 
 [Next O(n)](./Orderofn.md)
