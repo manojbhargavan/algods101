@@ -1,5 +1,8 @@
-Time Complexity O(n)
-=====================
+---
+layout: post
+title: "Time Complexity O(n)"
+categories: bigo
+---
 
 [Index](./index.md)
 
@@ -35,5 +38,3 @@ return result;
 ```
 
 We can say the overall time it take to execute the above method is O(1 + n + 1) = O(n + 2). Since we are looking at the scalability of an algorithm and n becomes very high the constants in this case 2 have no impact on the overall execution time. Hence we will conclude that the function is O(n) time complexity.
-
-[Index](./index.md)
