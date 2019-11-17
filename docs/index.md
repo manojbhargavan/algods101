@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Algorithms Data Structures 101 in C# - Index"
+title: "Index"
 categories: bigo
 ---
 
