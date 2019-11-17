@@ -1,5 +1,8 @@
 [Index](./index.md)
 
+Time Complexity O(n)
+=====================
+
 Let us look a the below extention method which generates a Enumerable of size n and copies the value to n items in the Enumerable.
 
 ```csharp
