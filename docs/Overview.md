@@ -1,11 +1,8 @@
 ---
 layout: post
-title: "Some articles are just so short that we have to make the footer stick"
-categories: misc
+title: "Overview Of Big O Notation"
+categories: bigo
 ---
-
-Overview Of Big O Notation
---------------------------
 
 [Index](./index.md)
 
