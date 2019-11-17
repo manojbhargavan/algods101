@@ -1,6 +1,8 @@
 Overview Of Big O Notation
 ==========================
 
+[Index](./index.md)
+
 What is Good Code
 -----------------
 
@@ -23,5 +25,3 @@ It's hard to arrive at the exact runtime of an algorithm since it depends on the
 ![Big O Complexity](./imgs/bigocomplexitychart.jpg)
 
 [Next O(n)](./Orderofn.md)
-
-[Index](./index.md)
