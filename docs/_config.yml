@@ -1,7 +1,8 @@
 title: Algorithms and Data Structures 101
 author: manojbhargavan
 email: manoj.bhargavan@outlook.com
-description: > Algorithms and Data Structures 101 using C#.
+description: > # this means to ignore newlines until "show_excerpts:"
+  Algorithms and Data Structures 101 using C#.
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
