@@ -1,6 +1,3 @@
-Overview Of Big O Notation
-==========================
-
 [Index](./index.md)
 
 What is Good Code
