@@ -20,5 +20,19 @@ namespace bigO
             }
 
         }
+
+        internal static void Print(IEnumerable<string> input)
+        {
+            int i = 1, j = 1;
+            foreach(var item in input)
+            {
+                Console.WriteLine($"1.{i++} {input}");
+            }
+
+            foreach (var item in input)
+            {
+                Console.WriteLine($"2.{j++} {input}");
+            }
+        }
     }
 }
