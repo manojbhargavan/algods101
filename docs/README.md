@@ -1,8 +1,6 @@
----
-layout: home
-title: "Big O Notation - Index"
-categories: bigo
----
+Algorithms and Data Structures 101
+==================================
 
-+ [Overview Of Big O Notation]({{site.baseurl}}{% post_url ./bigo/2019-11-19-01Overview %})
-  + [Time Complexity O(n)]({{site.baseurl}}{% post_url ./bigo/2019-11-19-02Orderofn %})
+Humble effor to simplify this computer science topics.
+
+Visit <https://manojbhargavan.github.io/algods101> for step by step walkthrough.
