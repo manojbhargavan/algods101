@@ -1,0 +1,70 @@
+I"~<p><a href="/bigo/2019/11/19/00Index.html">Index</a></p>
+
+<p>We have two major steps to derive the complexity of an algorithm:</p>
+
+<ul>
+  <li>Consider only the fastest-growing term</li>
+  <li>Take out the coefficient(s)</li>
+</ul>
+
+<p>Let us look at an example to understand the steps above. The below method takes in an integer n and calculates the running total of number from 1 to n.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">static</span> <span class="kt">long</span> <span class="nf">CalculateRunningTotal</span><span class="p">(</span><span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">runningTotal</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">long</span> <span class="n">i</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+    <span class="p">{</span>
+        <span class="n">runningTotal</span> <span class="p">+=</span> <span class="n">i</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">runningTotal</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Let’s take a look at the steps involved in this function or algorithm.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">static</span> <span class="kt">long</span> <span class="nf">CalculateRunningTotal</span><span class="p">(</span><span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">runningTotal</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span> <span class="c1">// 1 step</span>
+    <span class="c1">// Generally we do not consider assignment as a step,</span>
+    <span class="c1">// but for simplicity we will say this takes say 1 step.</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">long</span> <span class="n">i</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span> <span class="c1">// n step(s)</span>
+    <span class="c1">// Since the for loop is executed n times</span>
+    <span class="p">{</span>
+        <span class="n">runningTotal</span> <span class="p">+=</span> <span class="n">i</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">runningTotal</span><span class="p">;</span> <span class="c1">// 1 step</span>
+    <span class="c1">// Generally we do not consider returning as a step,</span>
+    <span class="c1">// but for the sake of understanding let us say 1 step.</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>So the number of steps of time which it take is 1 + n + 1 = n + 2 = O(n + 2)</p>
+
+<p>Step 1: Consider only the fastest-growing term –&gt; In this case O(n + 2), 2 is a constant and n increases as the input size increases hence n is the fastest-growing term. So we remove 2 hence we have O(n).
+Step 2: Take out the coefficient(s) –&gt; In this case O(n) does not have any coefficient.</p>
+
+<p>Hence the time complexity of the above function is O(n) (spelled ‘Big O of n’), or Linear Time.</p>
+
+<h2 id="few-examples-terms">Few examples Terms</h2>
+
+<p>We will look at some made-up number of steps for an unknown algorithm. This will help us understand the steps in depth although you might not encounter such terms in real-world algorithms or maybe you will. n is the input size for all of the below examples.</p>
+
+<p>When we say “STEP1” we mean “Consider only the fastest-growing term” and by “STEP2” we mean “Take out the coefficient(s)”.</p>
+
+<ul>
+  <li>T = O(an + b + 2c)
+    <ul>
+      <li>STEP1: The fastest-growing term in the above term is <b>“an”</b>, since b and 2c are constants no matter how big it is as n grow significantly “b” and “2c” does not certainly grow and will have little to no impact on the runtime. “an” on the other hand is directly related to n and is the fastest-growing term. Hence after this step we are left with <b>O(an)</b> since we removed the constants <b>b + 2c</b>.</li>
+      <li>STEP2: “a” is the only coefficient in the term O(an). Once we remove that we are left with just <b>O(n)</b>. Hence the above term belongs to a “Linear Time” algorithm.</li>
+    </ul>
+  </li>
+  <li>T = O(cn<sup>2</sup> + bn + a)
+    <ul>
+      <li>STEP1: cn<sup>2</sup> is the fastest growing term since ‘a’ is a constant and no matter how big ‘b’ is cn<sup>2</sup> is clearly the fastest growing eventually. Hence we are left with O(cn<sup>2</sup>)</li>
+      <li>STEP2: Let’s get rid of the coefficient c and we are left with <b>O(n<sup>2</sup>)</b> which is Quadratic Time.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><a href="/bigo/2019/11/19/03Rules.html">Next » Steps to Derive Time Complexity Put as in different way</a></p>
+:ET

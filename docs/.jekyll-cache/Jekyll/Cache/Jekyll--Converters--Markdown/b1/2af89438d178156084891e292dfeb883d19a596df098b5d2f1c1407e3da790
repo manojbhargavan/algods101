@@ -1,0 +1,11 @@
+I"‰<p><a href="/bigo/2019/11/19/00Index.html">Index</a></p>
+
+<p>We can look at deriving time complexity using the following four rules as well just to make sure we understand how this works. Let us look at the four rules.</p>
+
+<ul>
+  <li>Rule 1: Worst Case Scenario</li>
+  <li>Rule 2: Remove Constants</li>
+  <li>Rule 3: Different terms for input</li>
+  <li>Rule 4: Drop non Dominants</li>
+</ul>
+:ET
