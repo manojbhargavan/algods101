@@ -1,0 +1,22 @@
+I"å<p><a href="/bigo/2019/11/19/00Index.html">Index</a></p>
+
+<p>We basically have two major steps to derive the complexity of an algorithm:</p>
+
+<ul>
+  <li>Find the fastest growing term</li>
+  <li>Take out the coefficient(s)</li>
+</ul>
+
+<p>Let us look at an example to understand the steps above. The below method takes in an integer n and calculates the running total of number from 1 to n.</p>
+
+<div class="language-csharp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">public</span> <span class="k">static</span> <span class="kt">long</span> <span class="p">(</span><span class="kt">long</span> <span class="n">n</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">runningTotal</span> <span class="p">=</span> <span class="m">0</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">long</span> <span class="n">i</span> <span class="p">=</span> <span class="m">1</span><span class="p">;</span> <span class="n">i</span> <span class="p">&lt;=</span> <span class="n">n</span><span class="p">;</span> <span class="n">i</span><span class="p">++)</span>
+    <span class="p">{</span>
+        <span class="n">runningTotal</span> <span class="p">+=</span> <span class="n">i</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">runningTotal</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

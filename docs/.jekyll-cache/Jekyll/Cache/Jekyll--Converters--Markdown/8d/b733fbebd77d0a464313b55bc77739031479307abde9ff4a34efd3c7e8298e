@@ -1,0 +1,11 @@
+I"#<p><a href="/bigo/2019/11/19/00Index.html">Index</a></p>
+
+<p>We basically have two major steps to derive the complexity of an algorithm:</p>
+
+<ul>
+  <li>Find the fastest growing term</li>
+  <li>Take out the coefficient(s)</li>
+</ul>
+
+<p>Let us look at an example to understand the steps</p>
+:ET
