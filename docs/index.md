@@ -1,8 +1,8 @@
 ---
 layout: home
-title: "Index"
-categories: misc
+title: "Home"
+categories: collection
 ---
 
-+ [Overview Of Big O Notation](./Overview.html)
-  + [Time Complexity O(n)](./Orderofn.html)
+[Big O Notation Index](/bigo/2019/11/19/00Index.html)
+-----------------------------------------------

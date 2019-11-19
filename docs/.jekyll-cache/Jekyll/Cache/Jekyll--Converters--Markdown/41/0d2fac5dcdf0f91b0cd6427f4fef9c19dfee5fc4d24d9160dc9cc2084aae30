@@ -1,4 +1,4 @@
-I"6<p><a href="./index.html">Index</a></p>
+I"G<p><a href="./00Index.html">Index</a></p>
 
 <h2 id="what-is-good-code">What is Good Code</h2>
 
@@ -16,7 +16,7 @@
 
 <p>It’s hard to arrive at the exact runtime of an algorithm since it depends on the external factors as mentioned previously so instead of talking about the runtime directly, we use big O notation to talk about how quickly the runtime grows relative to the input.</p>
 
-<p><img src="./imgs/bigocomplexitychart.jpg" alt="Big O Complexity" /></p>
+<p><img src="/assets/images/bigo/bigocomplexitychart.jpg" alt="Big O Complexity" /></p>
 
-<p><a href="./Orderofn.html">Next O(n)</a></p>
+<p><a href="./02Orderofn.html">Next O(n)</a></p>
 :ET
