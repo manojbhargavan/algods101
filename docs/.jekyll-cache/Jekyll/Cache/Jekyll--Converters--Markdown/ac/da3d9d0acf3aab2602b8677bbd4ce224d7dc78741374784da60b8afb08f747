@@ -1,4 +1,4 @@
-I"<p><a href="/bigo/2019/11/19/00Index.html">Index</a></p>
+I"k<p><a href="/bigo/2019/11/19/00Index.html">Index</a></p>
 
 <h2 id="what-is-good-code">What is Good Code</h2>
 
@@ -15,6 +15,8 @@
 <p>Big O is used to define time and space complexity of an algorithm which solves a single problem. Simply put it is the language software developers use to define how long an algorithm takes to run, as in we express the runtime in terms of how quickly the runtime grows relative to the input. It is also used to compare two algorithms aimed at solving the same problem, to identify which algorithm scales better, i.e., how the run time of each algorithm changes or if it changes at all as the number of input parameter or enumerbales increase.</p>
 
 <p>It’s hard to arrive at the exact runtime of an algorithm since it depends on the external factors as mentioned previously so instead of talking about the runtime directly, we use big O notation to talk about how quickly the runtime grows relative to the input.</p>
+
+<p><img src="/assets/images/bigo/bigocomplexitychart.jpg" alt="Big o Complexity Chart" /></p>
 
 <p><a href="/bigo/2019/11/19/02Orderofn.html">Next O(n)</a></p>
 :ET
