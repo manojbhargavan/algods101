@@ -59,10 +59,10 @@ We will look at some made-up number of steps for an unknown algorithm. This will
 When we say "STEP1" we mean "Consider only the fastest-growing term" and by "STEP2" we mean "Take out the coefficient(s)".
 
 + T = O(an + b + 2c)
-  + STEP1: The fastest-growing term in the above term is <b>"an"</b>, since b and 2c are constants no matter how big it is as n grow significantly "b" and "2c" does not certainly grow and will have little to no impact on the runtime. "an" on the other hand is directly related to n and is the fastest-growing term. Hence after this step we are left with <b>O(an)</b> since we removed the constants <b>b + 2c</b>.
-  + STEP2: "a" is the only coefficient in the term O(an). Once we remove that we are left with just <b>O(n)</b>. Hence the above term belongs to a "Linear Time" algorithm.
-+ T = O(cn<sup>2</sup> + bn + a)
-  + STEP1: cn<sup>2</sup> is the fastest growing term since 'a' is a constant and no matter how big 'b' is cn<sup>2</sup> is clearly the fastest growing eventually. Hence we are left with O(cn<sup>2</sup>)
-  + STEP2: Let's get rid of the coefficient c and we are left with <b>O(n<sup>2</sup>)</b> which is Quadratic Time.
+  + STEP1: The fastest-growing term in the above term is **"an"**, since b and 2c are constants no matter how big it is as n grow significantly "b" and "2c" does not certainly grow and will have little to no impact on the runtime. "an" on the other hand is directly related to n and is the fastest-growing term. Hence after this step we are left with **O(an)** since we removed the constants **b + 2c**.
+  + STEP2: "a" is the only coefficient in the term O(an). Once we remove that we are left with just **O(n)**. Hence the above term belongs to a "Linear Time" algorithm.
++ T = O(cn^2 + bn + a)
+  + STEP1: cn^2 is the fastest growing term since 'a' is a constant and no matter how big 'b' is cn^2 is clearly the fastest growing eventually. Hence we are left with O(cn^2)
+  + STEP2: Let's get rid of the coefficient c and we are left with **O(n^2)** which is Quadratic Time.
 
 [Next >> Steps to Derive Time Complexity Put as in different way]({{site.baseurl}}{% post_url ./bigo/2019-11-19-03Rules %})

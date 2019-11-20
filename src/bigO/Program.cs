@@ -1,5 +1,5 @@
-﻿using System;
-using Humanizer;
+﻿using Humanizer;
+using System;
 
 namespace bigO
 {
@@ -7,14 +7,22 @@ namespace bigO
     {
         static void Main(string[] args)
         {
-            //1. O(n) Function
-            Example1.FindingNemo(new string[] { "manoj", "nandan",
-            "saranya", "jack", "nemo", "karimeen" });
-            var startTime = DateTime.Now;
-            var nemoArray = "nemo".GetEnumerablePrePopulated(100000);
-            Example1.FindingNemo(nemoArray);
-            System.Console.WriteLine($"Time taken to run: {(DateTime.Now - startTime).Humanize()}");
+            //BigOnExample1();
+            //BigOnExample2();
 
+            //3. Log All Pairs Of Array
+            var numbers = new int[] { 1, 2, 3, 4, 5, 6 };
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                for (int j = 0; j < numbers.Length; j++)
+                {
+                    Console.WriteLine($"Pair: {numbers[i]}, {numbers[j]}");
+                }
+            }
+        }
+
+        private static void BigOnExample2()
+        {
             //2. O(n) example again
             var names = new string[] { "manoj", "nandan",
                 "saranya", "jack", "giant", "findme" };
@@ -31,8 +39,17 @@ namespace bigO
                 }
             }
             Console.WriteLine($"Steps taken {stepsTaken}");
+        }
 
-            //3. 
+        private static void BigOnExample1()
+        {
+            //1. O(n) Function
+            bigO.Example1.FindingNemo(new string[] { "manoj", "nandan",
+            "saranya", "jack", "nemo", "karimeen" });
+            var startTime = DateTime.Now;
+            var nemoArray = "nemo".GetEnumerablePrePopulated(100000);
+            bigO.Example1.FindingNemo(nemoArray);
+            System.Console.WriteLine($"Time taken to run: {(DateTime.Now - startTime).Humanize()}");
         }
     }
 }
