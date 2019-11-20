@@ -4,8 +4,6 @@ title: "Time Complexity O(1) - Constant Time"
 categories: bigo
 ---
 
-[Index]({{site.baseurl}}{% post_url ./bigo/2019-11-19-00Index %})
-
 Let us look a the below method which simply prints the input.
 
 ```csharp
@@ -32,3 +30,7 @@ We can say the overall time it takes to execute the above method is O(1 + 1) = O
 ![Constant Time]({{site.baseurl}}/assets/images/bigo/constant.jpg)
 
 [Next >> Linear Time O(n) Example]({{site.baseurl}}{% post_url ./bigo/2019-11-20-05LinearTime %})
+
+[Previous << Steps to Derive Time Complexity - Take 2]({{site.baseurl}}{% post_url ./bigo/2019-11-19-03Rules %})
+
+[Index]({{site.baseurl}}{% post_url ./bigo/2019-11-19-00Index %})

@@ -4,8 +4,6 @@ title: "Steps to Derive Time Complexity - Take 1"
 categories: bigo
 ---
 
-[Index]({{site.baseurl}}{% post_url ./bigo/2019-11-19-00Index %})
-
 We have two major steps to derive the complexity of an algorithm:
 
 + Consider only the fastest-growing term
@@ -65,4 +63,8 @@ When we say "STEP1" we mean "Consider only the fastest-growing term" and by "STE
   + STEP1: cn^2 is the fastest growing term since 'a' is a constant and no matter how big 'b' is cn^2 is clearly the fastest growing eventually. Hence we are left with O(cn^2)
   + STEP2: Let's get rid of the coefficient c and we are left with **O(n^2)** which is Quadratic Time.
 
-[Next >> Steps to Derive Time Complexity Put as in different way]({{site.baseurl}}{% post_url ./bigo/2019-11-19-03Rules %})
+[Next >> Steps to Derive Time Complexity - Take 2]({{site.baseurl}}{% post_url ./bigo/2019-11-19-03Rules %})
+
+[Previous << Overview Of Big O Notation]({{site.baseurl}}{% post_url ./bigo/2019-11-19-01Overview %})
+
+[Index]({{site.baseurl}}{% post_url ./bigo/2019-11-19-00Index %})
