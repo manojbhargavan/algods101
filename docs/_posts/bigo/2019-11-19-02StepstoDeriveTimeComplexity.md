@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Steps to Derive Time Complexity"
+title: "Steps to Derive Time Complexity - Take 1"
 categories: bigo
 ---
 

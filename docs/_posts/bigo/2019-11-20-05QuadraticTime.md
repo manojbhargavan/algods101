@@ -4,8 +4,6 @@ title: "Time Complexity O(n^2) - Quadratic Time"
 categories: bigo
 ---
 
-[Index]({{site.baseurl}}{% post_url ./bigo/2019-11-19-00Index %})
-
 Let us look a the below extention method which generates a Enumerable of size n and copies the value to n items in the Enumerable.
 
 ```csharp
@@ -40,3 +38,7 @@ return result;
 We can say the overall time it take to execute the above method is O(1 + n + 1) = O(n + 2). Since we are looking at the scalability of an algorithm and n becomes very high the constants in this case 2 have no impact on the overall execution time. Hence we will conclude that the function is O(n) time complexity.
 
 [Next >> Linear Time O(n) Example]({{site.baseurl}}{% post_url ./bigo/2019-11-20-05LinearTime %})
+
+[Previous << Linear Time O(n) Example]({{site.baseurl}}{% post_url ./bigo/2019-11-20-05LinearTime %})
+
+[Index]({{site.baseurl}}{% post_url ./bigo/2019-11-19-00Index %})

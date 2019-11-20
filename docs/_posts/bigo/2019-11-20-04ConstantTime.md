@@ -6,37 +6,29 @@ categories: bigo
 
 [Index]({{site.baseurl}}{% post_url ./bigo/2019-11-19-00Index %})
 
-Let us look a the below extention method which generates a Enumerable of size n and copies the value to n items in the Enumerable.
+Let us look a the below method which simply prints the input.
 
 ```csharp
-public static IEnumerable<T> GetEnumerablePrePopulated<T>(this T value, long n)
+public static void PrintSomething(object input)
 {
-    List<T> result = new List<T>();
-    for (int i = 0; i < n; i++)
-    {
-        result.Add(value);
-    }
-    return result;
+    Console.WriteLine($"{input}");
 }
 ```
 
-Lets count the number of steps in this particular method.
+Let's count the number of steps in this particular method.
 
 ```csharp
-List<T> result = new List<T>();
-// One Step = O(1)
-// In general we do not count this but we will act as if we do for now.
-
-for (int i = 0; i < n; i++)
-// n Steps = O(n)
+public static void PrintSomething(object input)
 {
-    result.Add(value);
+    Console.WriteLine($"{input}");
+    //O(1)
+    Console.WriteLine("Done");
+    //O(1)
 }
-
-return result;
-// One Step = O(1)
 ```
 
-We can say the overall time it take to execute the above method is O(1 + n + 1) = O(n + 2). Since we are looking at the scalability of an algorithm and n becomes very high the constants in this case 2 have no impact on the overall execution time. Hence we will conclude that the function is O(n) time complexity.
+We can say the overall time it takes to execute the above method is O(1 + 1) = O(2). No matter what the input is the runtime of this algorithm is not going to change baring say input size which is not related to time complexity and its not something we have control on. Hence this is Constant Time, which we denote as O(1). Let's visualize Constant time by looking at the below chart.
+
+![Constant Time]({{site.baseurl}}/assets/images/bigo/constant.jpg)
 
 [Next >> Linear Time O(n) Example]({{site.baseurl}}{% post_url ./bigo/2019-11-20-05LinearTime %})
